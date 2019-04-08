@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/logoutId"
+    android:title="LogOut"
+    app:showAsAction="never"
+    />
+    <item
+        android:id="@+id/editId"
+        android:title="Edit Profile"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/changePassID"
+        android:title="Change Your Password"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/changeEmailID"
+        android:title="Change Your Email"
+        app:showAsAction="never"
+        />
+
+</menu>

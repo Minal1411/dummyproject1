@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginBottom="5dp"
+        android:background="#effffd"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <!-- <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageId"
+            />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="65"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/nameID"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="name"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#080807"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.0,0.0"
+                android:padding="5dp"
+                android:gravity="center"
+                android:id="@+id/locationID"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="35">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:text="Address"
+                android:gravity="center"
+                android:id="@+id/addressID"/>
+
+            <TextView
+                android:id="@+id/distanceID"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_marginTop="3dp"
+                android:text="200 km" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

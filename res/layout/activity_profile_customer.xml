@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/cusProfileLayoutID"
+    android:background="@drawable/profile_front_design"
+    tools:context=".Customer_Profile">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/toolbar">
+
+    </android.support.v7.widget.Toolbar>
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2750dp"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="35dp"
+                android:id="@+id/imageC"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_person_white_24dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="name"
+                android:id="@+id/emailC"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="28dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="30dp"
+                android:text="   Name"
+                android:id="@+id/nameC"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="30dp"
+                android:text="   Address"
+                android:id="@+id/addressC"
+                android:drawableLeft="@drawable/location_white_24dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="30dp"
+                android:text="   Contact No."
+                android:id="@+id/contactC"
+                android:drawableLeft="@drawable/ic_call_white_24dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="   Location"
+                android:id="@+id/locationC"
+                android:paddingLeft="30dp"
+                android:drawableLeft="@drawable/ic_my_location_white_24dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hire Service Provider"
+        android:textColor="#ffffff"
+        android:id="@+id/hireSPBtnID"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/hire_me_btn_background"
+        android:layout_gravity="center"
+        />
+
+
+    <!-- </ScrollView>-->
+
+
+</LinearLayout>

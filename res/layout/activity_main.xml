@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.exploretalent.hireme.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            app:titleTextColor="#ffffff"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:background="#6884d1"
+            >
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+           <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to earn $money. Provide services by clicking on the SERVICE PROVIDER BUTTON BELOW."
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@string/bottom_sheet_behavior"
+                />-->
+            <!--<Button
+                android:id="@+id/serviceprovider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Service Provider"
+                android:textColor="#ffffff"
+                android:background="@drawable/background_signup"
+                />-->
+
+          <!--  <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to get servicer quickly then click on the CUSTOMER BUTTON now."
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@string/bottom_sheet_behavior"
+                />-->
+
+           <!-- <Button
+                android:id="@+id/customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/background_signup"
+                android:text="Customer" />-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to earn $money. Provide services by clicking on the Service Provider below."
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@string/bottom_sheet_behavior"
+                />
+
+            <ImageView
+                android:id="@+id/serviceprovider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/service_provider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to get servicer quickly then click on the Service Receiver below."
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@string/bottom_sheet_behavior"
+                />
+
+            <ImageView
+                android:id="@+id/servicereceiver"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/customer" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
